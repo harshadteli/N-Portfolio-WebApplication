@@ -1,10 +1,379 @@
-<html>
-  <head>
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <center>
-      <h1>This Site Under Construction</h1>
-    </center>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Rajanandini Patil Portfolio. Full-Stack Web Developer." />
+  <meta property="og:image" content="https://img.freepik.com/premium-photo/ai-digital-technology-data-science-artificial-intelligence-developer-software-computer_1047061-3452.jpg?w=2000">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/logo.png" type="image/x-png">
+  <title>Portfolio | Rajnandini Patil</title>
+</head>
+
+<body oncontextmenu="return false">
+
+  
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo">
+      <img src="./assets/images/logo.png" alt="Rajnandini Logo" id="navbar-logo">
+      <span>Rajnandini</span>
+    </a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+
+  <!-- hero section starts -->
+  <section class="home" id="home" style="position:relative; overflow:hidden;">
+
+    <!-- Background video -->
+    <video id="hero-video" autoplay muted playsinline
+      style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none;">
+      <source src="./assets/3d/1.mp4" type="video/mp4">
+    </video>
+
+    <div id="particles-js" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:2;"></div>
+
+    <div class="content" style="position:relative;z-index:3;">
+      <h2>Hi There,<br /> I'm Rajnandini <span>Patil</span></h2>
+      <p>i am into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="#"
+              target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="#" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="#" target="_blank"><i
+                class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="#" target="_blank"><i
+                class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="#"><i
+                class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="https://rajnandinipatil.vercel.app" target="_blank"><i
+                class="fab fa-dev"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="image" style="position:relative;z-index:3;">
+      <img draggable="false" class="tilt" src="./assets/images/cartoon-rajnanadini.jpg" alt="Rajnandini Cartoon">
+    </div>
+  </section>
+  <!-- hero section ends -->
+
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile-rajnandini.jpg" alt="Rajnandini Profile">
+      </div>
+      <div class="content">
+        <h3>I'm Rajnandini</h3>
+        <span class="tag">Full Stack Developer</span>
+
+        <p>I am a Full-Stack developer based in Kolhapur, India.
+          I am an B.Sc Computer Science(Entire) Degree undergraduate from The New College Kolhapur.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using Modern Technologies.
+          Working for myself to improve my skills. </p>
+
+        <div class="box-container">
+          
+          <div class="box">
+            <p><span> email : </span> rajnandinipatil@gmail.com</p>
+            <p><span> place : </span> Kolhapur, India - 416001</p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="https://drive.google.com/file/d/1rZiXl562q7aVyk1kJ2nO85YBAq8ixTiw/view" target="_blank"
+            class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+      <div class="row" id="skillsContainer">
+
+      
+
+      </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="https://i.ytimg.com/vi/mCZ7AMXrGaA/maxresdefault.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Bachelor of Computer Scienec</h3>
+          <p>The New College Kolhapur | Shivaji University Kolhapur</p>
+          <h4>2023-2026 | Completed</h4>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <section class="work" id="work">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+    <div class="box-container">
+
+
+    </div>
+
+    
+
+  </section>
+  <!-- work project section ends -->
+
+  <!-- experience section starts -->
+  <section class="experience" id="experience">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+    <div class="timeline">
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>TATA Micro Internship</h2>
+          </div>
+          <div class="desc">
+            <h3>JOB Simulation for the Data Analysis</h3>
+            <p>Oct 2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Infosys SpringBoard</h2>
+          </div>
+          <div class="desc">
+            <h3>Web Developer | Internship</h3>
+            <p>Nov-2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>AWS Architecture</h2>
+          </div>
+          <div class="desc">
+            <h3>Azure Developer Engineering Job Simulation </h3>
+            <p>Dec-2025</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+
+
+    </div>
+
+  </section>
+  <!-- experience section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Rajnandini's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
+          🚀.</p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+        <p> <i class="fas fa-envelope"></i>rajnandinipatil@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Kolhapur, India-416201</p>
+        <div class="share">
+
+          <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"
+            target="_blank"></a>
+          <a href="#" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="#" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+          <a href="#" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+          <a href="#" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <marquee>
+      <h1 class="credit">&copy; 2026 | <a
+        href="#"> Rajnandini Patil  </a> | All Rights Reserved</h1>
+</h1>
+    </marquee>
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Hero video sequence: 1.mp4 → 2.mp4 → 1.mp4 → ... -->
+  <script>
+    (function () {
+      var videos = ['./assets/3d/1.mp4', './assets/3d/2.mp4'];
+      var currentIndex = 0;
+      var heroVideo = document.getElementById('hero-video');
+
+      heroVideo.addEventListener('ended', function () {
+        currentIndex = (currentIndex + 1) % videos.length;
+        heroVideo.src = videos[currentIndex];
+        heroVideo.load();
+        heroVideo.play();
+      });
+    })();
+  </script>
+
+  <!-- Inline skills data (avoids fetch/CORS issues on file://) -->
+  <script>
+    (function () {
+      var skills = [
+        { name: "C", icon: "https://img.icons8.com/color/48/000000/c-programming.png" },
+        { name: "C++", icon: "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" },
+        { name: "HTML", icon: "https://img.icons8.com/color/48/000000/html-5--v1.png" },
+        { name: "CSS", icon: "https://img.icons8.com/color/48/000000/css3.png" },
+        { name: "JavaScript", icon: "https://img.icons8.com/color/48/000000/javascript--v1.png" },
+        { name: "Java", icon: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" },
+        { name: "C#", icon: "https://img.icons8.com/color/48/000000/c-sharp-logo.png" },
+        { name: ".NET", icon: "https://img.icons8.com/color/48/000000/net-framework.png" },
+        { name: "MySQL", icon: "https://img.icons8.com/color/48/000000/mysql-logo.png" },
+        { name: "Git", icon: "https://img.icons8.com/color/48/000000/git.png" },
+        { name: "GitHub", icon: "https://img.icons8.com/glyph-neue/48/ffffff/github.png" }
+      ];
+
+      function renderSkills() {
+        var container = document.getElementById('skillsContainer');
+        if (!container) return;
+        var html = '';
+        skills.forEach(function (skill) {
+          html += '<div class="bar"><div class="info"><img src="' + skill.icon + '" alt="' + skill.name + '" /><span>' + skill.name + '</span></div></div>';
+        });
+        container.innerHTML = html;
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', renderSkills);
+      } else {
+        renderSkills();
+      }
+    })();
+  </script>
+
+<!-- Encrypted Code Popup -->
+<div class="popup-overlay" id="popupOverlay"></div>
+<div class="encrypted-popup" id="encryptedPopup">
+  <i class="fas fa-user-lock"></i>
+  <h3>Access Denied</h3>
+  <p>Code is Encrypted & Restricted</p>
+</div>
+
+</body>
+
 </html>
